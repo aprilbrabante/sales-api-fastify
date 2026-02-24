@@ -54,8 +54,8 @@ fastify.decorate("authorizeAdmin", async function (request, reply) {
   }
 });
 
-fastify.register(customerRoute, {prefix: "/api/v1/customer"});
-fastify.register(productRoute, {prefix: "/api/v1/product"});
+fastify.register(customerRoute, {prefix: "/api/v1/customers"});
+fastify.register(productRoute, {prefix: "/api/v1/products"});
 fastify.register(salesRoute, {prefix: "/api/v1/sales"});
 
 const start = async() => {
