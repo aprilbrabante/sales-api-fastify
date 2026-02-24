@@ -12,17 +12,11 @@ It manages **Customers**, **Products**, and **Sales** with authentication, role-
 git clone <your-repo-url>
 cd <repo-folder>
 
-2. **Install dependencies**
+### 2. Install dependencies 
 ```bash
-npm i
+npm i 
 
-3. **Configure environment variables**
-The API requires a MongoDB connection and a port number.
-3.1 Copy the sample environment file:
+### 3. Configure environment variables 
 ```bash
-cp .env_bak .env
-3.2 Edit .env with your own values, or you can use the sample MongoDB connection string below:
-```env
-PORT=5000
-MONGODB_STRING="mongodb+srv://admin:admin123@cluster0.ytx67ow.mongodb.net/sales-api?retryWrites=true&w=majority&appName=Cluster0"
-JWT_SECRET="your-secret-key"
+cp .env_bak .env 
+# edit .env with your own values
