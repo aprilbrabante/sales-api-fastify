@@ -62,11 +62,11 @@ npm start
 
 ---
 
-## 💡 Usage
+## Usage
 1. Start the server:
 
 ```bash
-npm start
+npm run dev
 ```
 
 2. Use an API client like **Postman** to test endpoints.  
